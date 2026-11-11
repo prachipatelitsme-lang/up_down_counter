@@ -1,6 +1,4 @@
-module mod_4_up_down_counter(clk,rst,ctrl,q_up,q_down
-
-    );
+module mod_4_up_down_counter(clk,rst,ctrl,q_up,q_down);
     input clk,rst,ctrl;
     output reg [1:0]q_up;
     output  reg [1:0]q_down;
